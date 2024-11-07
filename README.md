@@ -1,7 +1,7 @@
 # Generating High-Fidelity Retinal Images with Vessel-Based Conditioning Using Pix2Pix and Outpainting
 
 ## Authors
-Sunghun Kim, Junphyo Im
+Sunghun Kim, Junphyo Lim
 
 ## Abstract
 Retinal image generation is critical in medical imaging, assisting in diagnostics and treatment planning. Traditional diffusion-based generative models struggle to accurately incorporate vessel structures when these are used as conditioning elements, often leading to blurred or inaccurate representations in the final image. To address this limitation, we propose a two-stage generation approach. First, we create a detailed vessel structure using a Pix2Pix model, converting grayscale vessel masks into color vessel masks. Next, we employ outpainting techniques to complete the remaining regions of the retinal image, using the generated vessel structure as a foundation. This approach ensures the vessel structures are accurately represented, enhancing both the realism and diagnostic value of the generated retinal images.
